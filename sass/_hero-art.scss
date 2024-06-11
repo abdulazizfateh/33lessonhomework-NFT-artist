@@ -1,0 +1,298 @@
+.site-main {}
+
+.hero-section {
+    background: rgb(43, 43, 43);
+    border-bottom: 1px solid #3B3B3B;
+}
+
+.hero-top-img {
+    img {
+        width: 100%;
+    }
+}
+
+.hero-top-img-tab {
+    img {
+        display: none;
+    }
+}
+
+.hero-top-img-desk {
+    img {
+        display: none;
+    }
+}
+
+.hero-top-avatar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 80px;
+
+
+    img {
+        position: absolute;
+        bottom: -50%;
+        transform: translateY(-59%)
+    }
+}
+
+
+
+
+
+.hero-content {
+    padding: 0 0 30px 0;
+}
+
+.hero-content-wrapper {}
+
+.hero-title-btns {}
+
+.hero-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.hero-btns {
+    margin-bottom: 30px;
+}
+
+.hero-copy-btn {
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 19px 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(162, 89, 255);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.hero-follow-btn {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 19px 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(162, 89, 255);
+}
+
+.hero-bottom {}
+
+.hero-stats {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin-bottom: 30px;
+}
+
+.hero-stat {}
+
+.hero-stat-num {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.hero-stat-name {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.hero-bio {
+    margin-bottom: 30px;
+}
+
+.hero-bio-title {
+    color: rgb(133, 133, 132);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.hero-bio-text {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+}
+
+.hero-links {}
+
+.hero-links-title {
+    color: rgb(133, 133, 132);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.hero-links-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-links-item {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) {
+
+    .hero-title {
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .hero-top-img {
+        display: none;
+    }
+
+    .hero-top-img-tab {
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .hero-top-avatar {
+        img {
+            left: 72px;
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:900px) {
+
+
+
+    .hero-title {
+        font-size: 51px;
+        line-height: 110%;
+    }
+
+    .hero-top-img-tab {
+        img {
+            display: none;
+        }
+    }
+
+    .hero-top-img-desk {
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .hero-top-avatar {
+        display: flex;
+        position: relative;
+        height: 80px;
+
+        img {
+            position: absolute;
+            bottom: -50%;
+            left: 115px;
+            transform: translateY(-59%)
+        }
+    }
+
+    .hero-title-btns {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .hero-stat-num {
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .hero-stat-name {
+        font-size: 20px;
+        line-height: 160%;
+    }
+
+    .hero-bio-title {
+        font-size: 22px;
+        line-height: 160%;
+    }
+
+    .hero-bio-text {
+        font-size: 22px;
+        line-height: 160%;
+    }
+
+    .hero-links-title {
+        font-size: 22px;
+        line-height: 160%;
+    }
+}
+
+
+@media (min-width:500px) {
+
+    .hero-btns {
+        display: flex;
+        gap: 20px;
+    }
+
+    .hero-copy-btn {
+        width: 184px;
+    }
+
+    .hero-follow-btn {
+        width: 142px;
+        height: 60px;
+    }
+
+    .hero-stats {
+        gap: 88px;
+    }
+}
